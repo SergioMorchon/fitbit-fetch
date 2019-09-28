@@ -7,7 +7,7 @@ const req = {
   url: "https://uinames.com/api"
 };
 
-send(req).then(({ name }) => {
+fetch(req).then(({ name }) => {
   console.log(name);
 });
 ```
