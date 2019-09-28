@@ -1,0 +1,29 @@
+{
+  "name": "fetch",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "^4.0.0-pre.4",
+    "@fitbit/sdk-cli": "^1.7.0",
+    "fitbit-sdk-types": "^4.1.6"
+  },
+  "fitbit": {
+    "appUUID": "0514dd28-ca18-4525-8bfe-4516af75909c",
+    "appType": "app",
+    "appDisplayName": "Fetch",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
